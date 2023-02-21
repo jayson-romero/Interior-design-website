@@ -1,3 +1,5 @@
+import { fb, linkedin, twitter } from "../assets"
+
 export const user = {
       name: 'Tom Cook',
       email: 'tom@example.com',
@@ -14,4 +16,9 @@ export const userNavigation = [
       { name: 'Settings', href: '#' },
       { name: 'Sign out', href: '#' },
     ]
+export const socialMedia = [
+      { name: 'facebook', href: '#', icon: fb },
+      { name: 'linkedin', href: '#', icon: twitter },
+      { name: 'twitter', href: '#', icon:  linkedin},
+]
     
